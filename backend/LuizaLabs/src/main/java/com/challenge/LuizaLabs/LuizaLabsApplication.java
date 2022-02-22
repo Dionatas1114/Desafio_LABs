@@ -1,7 +1,6 @@
 package com.challenge.LuizaLabs;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.sun.istack.logging.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
@@ -9,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan
 public class LuizaLabsApplication {
-	private static final Logger logger = LoggerFactory.getLogger(LuizaLabsApplication.class);
+	private static Logger logger = Logger.getLogger(LuizaLabsApplication.class);
 
 	public static void main(String[] args) {
 		SpringApplication.run(LuizaLabsApplication.class, args);
