@@ -47,11 +47,21 @@
     - configure the application with the main class, 
     - build the project and run.
 
-5. (OPTIONAL) If you prefer to test on POSTMAN, this is the collection [link]().
+5. (OPTIONAL) If you prefer to test on POSTMAN, the collection is in the project root named as `LuizaLabs-Challenge.postman_collection`.
 
 ## How to run the local `Frontend`?
 
-In your IDE (preferably VSCode), open the project's `Frontend` folder, You need to find the `index.html` file and just open it in your preferred browser (Chrome, Mozilla, Opera or other).
+In your IDE (preferably VSCode), open the project's `Frontend` folder and enter these commands in the bash terminal: 
+* (Caution!) Wait for the dependencies to finish downloading to run
+
+```bash
+$ npm install
+$ npm run start
+```
+
+The project will open automatically in some browser with the url: `http://localhost:3000/` and You can open it in your preferred browser (Chrome, Mozilla, Opera or other).
+
+* No configuration like `env vars` or disabling the firewall is required.
 
 ## How to run the local `DB Scripts`?
 
