@@ -3,7 +3,7 @@
 ## Project Structure (3 Steps)
 
 * Step 1: Spring Boot (Maven) API using JAVA 11 SDK
-* Step 2: Front End with Bootstrap v5
+* Step 2: Front End with React and Material UI (v5)
 * Step 3: DB Scripts to MySql DB
 
 ## How to run the local `Backend` in Prod and Dev Environment? 
