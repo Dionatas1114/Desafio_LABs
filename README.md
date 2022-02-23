@@ -6,7 +6,6 @@
 * Step 2: Front End with Bootstrap v5
 * Step 3: DB Scripts to MySql DB
 
-
 ## How to run the local `Backend` in Prod and Dev Environment? 
     *(You need SDK v11 to Java)
 
@@ -61,7 +60,22 @@ $ npm run start
 
 The project will open automatically in some browser with the url: `http://localhost:3000/` and You can open it in your preferred browser (Chrome, Mozilla, Opera or other).
 
-* No configuration like `env vars` or disabling the firewall is required.
+* No configuration like `env vars` or disable the firewall is required.
+
+On the Login Page, enter this data:
+
+    name: magalu
+    password: m@galu123  
+
+See this screenshots:
+
+* Login Page: (Login with wrong user data)
+  
+![picture alt](./prints/teste.jpg "Login Page")
+
+* Home Page: (Login with correct user data)
+  
+![picture alt](./prints/home.jpg "Login Page")
 
 ## How to run the local `DB Scripts`?
 
