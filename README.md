@@ -6,7 +6,7 @@
 * Step 2: Front End with React and Material UI (v5)
 * Step 3: DB Scripts to MySql DB
 
-## How to run the local `Backend` in Prod and Dev Environment? 
+## How to run local `Backend` in Prod and Dev Environment? 
     *(You need SDK v11 to Java)
 
 1. Clone the repo https://github.com/Dionatas1114/Desafio_LABs using bash command in the terminal:
